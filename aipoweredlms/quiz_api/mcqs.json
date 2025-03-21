@@ -1,0 +1,57 @@
+[
+    {
+        "question": "Which machine learning algorithm is primarily used for clustering unlabeled data?",
+        "options": {
+            "A": "Linear Regression",
+            "B": "K-Means Clustering",
+            "C": "Support Vector Machines",
+            "D": "Logistic Regression"
+        },
+        "answer": "B",
+        "difficulty": 4
+    },
+    {
+        "question": "What is the purpose of cross-validation in machine learning?",
+        "options": {
+            "A": "To visualize the data",
+            "B": "To evaluate the model's performance on unseen data",
+            "C": "To train the model faster",
+            "D": "To reduce the dimensionality of the data"
+        },
+        "answer": "B",
+        "difficulty": 5
+    },
+    {
+        "question": "In a decision tree, what represents the features used to make decisions?",
+        "options": {
+            "A": "Leaves",
+            "B": "Branches",
+            "C": "Root",
+            "D": "Nodes"
+        },
+        "answer": "D",
+        "difficulty": 4
+    },
+    {
+        "question": "Which evaluation metric is commonly used for regression problems?",
+        "options": {
+            "A": "Accuracy",
+            "B": "Precision",
+            "C": "Recall",
+            "D": "Mean Squared Error"
+        },
+        "answer": "D",
+        "difficulty": 5
+    },
+    {
+        "question": "What does 'overfitting' mean in machine learning?",
+        "options": {
+            "A": "The model performs well on training data but poorly on unseen data",
+            "B": "The model performs poorly on both training and unseen data",
+            "C": "The model performs well on both training and unseen data",
+            "D": "The model is too simple to capture the underlying patterns in the data"
+        },
+        "answer": "A",
+        "difficulty": 6
+    }
+]

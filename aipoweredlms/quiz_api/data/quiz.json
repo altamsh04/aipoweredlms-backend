@@ -1,0 +1,62 @@
+{
+    "quizzes": [
+      {
+        "id": 1,
+        "title": "Python Basics",
+        "description": "Test your knowledge of Python fundamentals",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is the correct way to declare a variable in Python?",
+            "options": [
+              "var x = 10;",
+              "x = 10",
+              "int x = 10;",
+              "let x = 10;"
+            ],
+            "correct_answer": 1
+          },
+          {
+            "id": 2,
+            "question": "Which of the following is a mutable data type in Python?",
+            "options": [
+              "String",
+              "Tuple",
+              "List",
+              "Integer"
+            ],
+            "correct_answer": 2
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Django Framework",
+        "description": "Test your knowledge of Django web framework",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What command is used to create a new Django project?",
+            "options": [
+              "django create project_name",
+              "python django.py startproject project_name",
+              "django-admin startproject project_name",
+              "pip install django project_name"
+            ],
+            "correct_answer": 2
+          },
+          {
+            "id": 2,
+            "question": "In Django, what does MTV stand for?",
+            "options": [
+              "Model Template View",
+              "Model Technology View",
+              "Module Template Verification",
+              "Module Test Validation"
+            ],
+            "correct_answer": 0
+          }
+        ]
+      }
+    ]
+  }
