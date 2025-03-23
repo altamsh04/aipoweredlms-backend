@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-yvjfo&gsmv8db&0m6f8$y8xfe9iu&eau0zjc&1oc4oaw)g*6hl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.145.40', 'localhost', '127.0.0.1', '192.168.122.40', '192.168.133.40', '*']
 
 
 # Application definition
@@ -39,17 +39,29 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',    
     'rest_framework',
     'quiz_api',
+    'corsheaders',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",  # If using Vite
+    "http://localhost:5174",  # If using Vite
+    "http://127.0.0.1:5173",  # If React is running on 127.0.0.1
+    "http://127.0.0.1:5174",  # If React is running on 127.0.0.1
+]
+
+CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'aipoweredlms.urls'
 
